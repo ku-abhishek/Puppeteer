@@ -6,8 +6,7 @@ const trans=nodemailer.createTransport({
         user:"",
         pass:''
     }
-
-
+    
 });
 const sendMail = async (to, subject, description, attachments) => new Promise((resolve, reject) => {
     let mailoption={
